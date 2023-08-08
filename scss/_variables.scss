@@ -1,0 +1,125 @@
+$main-color: #FF0000;
+$main-color-2: #991C24;
+$main-color-3: #FFA0A0;
+$text-color: #000;
+@mixin max-media($point) {
+    @media screen and (max-width: $point) {
+        @content;
+    }
+}
+@mixin min-media($point) {
+    @media screen and (min-width: $point) {
+        @content;
+    }
+}
+@mixin line-clamp($line) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: $line;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+@mixin clear-fix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+@mixin fz-200{
+    font-size: 200px;
+    line-height: 1;
+    @include max-media(1024px){
+        font-size: 140px;
+    }
+    @include max-media(991px){
+        font-size: 100px;
+    }
+    @include max-media(768px){
+        font-size: 80px;
+    }
+}
+@mixin fz-72{
+    font-size: 72px;
+    line-height: 1.2;
+    @include max-media(1024px){
+        font-size: 54px;
+    }
+    @include max-media(768px){
+        font-size: 42px;
+    }
+}
+@mixin fz-60{
+    font-size: 60px;
+    line-height: 1.2;
+    @include max-media(1024px){
+        font-size: 50px;
+    }
+    @include max-media(768px){
+        font-size: 40px;
+    }
+}
+@mixin fz-48{
+    font-size: 48px;
+    line-height: 1.2;
+    @include max-media(1024px){
+        font-size: 42px;
+    }
+    @include max-media(768px){
+        font-size: 32px;
+    }
+}
+@mixin fz-36{
+    font-size: 36px;
+    line-height: 1.2;
+    @include max-media(1024px){
+        font-size: 30px;
+    }
+    @include max-media(768px){
+        font-size: 24px;
+    }
+}
+@mixin fz-34{
+    font-size: 34px;
+    line-height: 1.2;
+    @include max-media(1024px){
+        font-size: 26px;
+    }
+    @include max-media(768px){
+        font-size: 22px;
+    }
+}
+@mixin fz-30{
+    font-size: 30px;
+    line-height: 1.2;
+    @include max-media(1024px){
+        font-size: 26px;
+    }
+    @include max-media(768px){
+        font-size: 24px;
+    }
+}
+@mixin fz-28{
+    font-size: 28px;
+    line-height: 1.2;
+    @include max-media(1024px){
+        font-size: 24px;
+    }
+    @include max-media(768px){
+        font-size: 20px;
+    }
+}
+@mixin fz-24{
+    font-size: 24px;
+    line-height: 1.2;
+    @include max-media(768px){
+        font-size: 20px;
+    }
+}
+@mixin fz-20{
+    font-size: 20px;
+    line-height: 1.2;
+    @include max-media(768px){
+        font-size: 18px;
+    }
+}

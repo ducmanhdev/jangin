@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'SFU GillSans';
+    src: url('SFUGillSansLight.eot');
+    src: url('SFUGillSansLight.eot?#iefix') format('embedded-opentype'),
+        url('SFUGillSansLight.woff2') format('woff2'),
+        url('SFUGillSansLight.woff') format('woff'),
+        url('SFUGillSansLight.ttf') format('truetype'),
+        url('SFUGillSansLight.svg#SFUGillSansLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU GillSans';
+    src: url('SFUGillSansItalic.eot');
+    src: url('SFUGillSansItalic.eot?#iefix') format('embedded-opentype'),
+        url('SFUGillSansItalic.woff2') format('woff2'),
+        url('SFUGillSansItalic.woff') format('woff'),
+        url('SFUGillSansItalic.ttf') format('truetype'),
+        url('SFUGillSansItalic.svg#SFUGillSansItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU GillSans';
+    src: url('SFUGillSans.eot');
+    src: url('SFUGillSans.eot?#iefix') format('embedded-opentype'),
+        url('SFUGillSans.woff2') format('woff2'),
+        url('SFUGillSans.woff') format('woff'),
+        url('SFUGillSans.ttf') format('truetype'),
+        url('SFUGillSans.svg#SFUGillSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU GillSans';
+    src: url('SFUGillSansBold.eot');
+    src: url('SFUGillSansBold.eot?#iefix') format('embedded-opentype'),
+        url('SFUGillSansBold.woff2') format('woff2'),
+        url('SFUGillSansBold.woff') format('woff'),
+        url('SFUGillSansBold.ttf') format('truetype'),
+        url('SFUGillSansBold.svg#SFUGillSansBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU GillSans';
+    src: url('SFUGillSansBoldItalic.eot');
+    src: url('SFUGillSansBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SFUGillSansBoldItalic.woff2') format('woff2'),
+        url('SFUGillSansBoldItalic.woff') format('woff'),
+        url('SFUGillSansBoldItalic.ttf') format('truetype'),
+        url('SFUGillSansBoldItalic.svg#SFUGillSansBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFU GillSans';
+    src: url('SFUGillSansExtraBold.eot');
+    src: url('SFUGillSansExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('SFUGillSansExtraBold.woff2') format('woff2'),
+        url('SFUGillSansExtraBold.woff') format('woff'),
+        url('SFUGillSansExtraBold.ttf') format('truetype'),
+        url('SFUGillSansExtraBold.svg#SFUGillSansExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+

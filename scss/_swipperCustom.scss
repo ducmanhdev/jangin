@@ -1,0 +1,91 @@
+.is-slider {
+    position: relative;
+    .swiper-container {
+        overflow: hidden;
+    }
+    .swiper-wrapper {
+        flex-wrap: nowrap;
+    }
+    .swiper-container-multirow,
+    .swiper-container-multirow-column {
+        .swiper-wrapper {
+            flex-wrap: wrap;
+        }
+    }
+}
+.swiper-button-prev,
+.swiper-button-next {
+    width: 47px;
+    height: 47px;
+    outline: 0;
+    border: 1px solid #707070;
+    color: #707070;
+    background-color: transparent;
+    transition: .2s;
+    &::after {
+        font-family: FontAweSome;
+        font-size: 20px;
+    }
+    &:hover {
+        background-color: $main-color-2;
+        border-color: $main-color-2;
+        color: #fff;
+    }
+    @include max-media(768px) {
+        width: 40px;
+        height: 40px;
+    }
+}
+.swiper-button-prev {
+    left: -64px;
+    &::after {
+        content: "\f104";
+    }
+}
+.swiper-button-next {
+    right: -64px;
+    &::after {
+        content: "\f105";
+    }
+}
+.swiper-button-wrap {
+    display: flex;
+    margin-top: 45px;
+    .swiper-button-prev,
+    .swiper-button-next {
+        position: static;
+        margin-top: 0;
+        display: inline-flex;
+    }
+    .swiper-button-next {
+        margin-left: 5px;
+    }
+    @include max-media(768px){
+        margin-top: 20px;
+    }
+}
+.swiper-pagination {
+    position: static;
+    margin-top: 15px;
+    @include max-media(768px) {
+        margin-top: 10px;
+    }
+}
+.swiper-pagination-bullet-active {
+    background-color: $main-color-2;
+}
+.swiper-wrapper {
+    margin: -15px;
+    width: auto;
+    flex-wrap: wrap;
+    .swiper-slide {
+        padding: 15px;
+        height: auto;
+    }
+    @include max-media(768px) {
+        margin: -7.5px;
+        .swiper-slide {
+            padding: 7.5px;
+        }
+    }
+}
